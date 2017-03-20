@@ -1,0 +1,136 @@
+
+#top{
+	margin-top:4%;
+}
+
+#bot{
+	background-image:url(new_year_background.png);
+	width:94.7%;
+	height:558px;
+	padding-left:10%;
+	padding-top:4%;
+}
+body{
+/*	margin-top:5%;*/
+	width:100%;
+}
+#name{
+	margin-left:10%;
+	float:left;
+	background:#4aaaa5;
+	color:white;
+	width:16%;
+	font-family:Georgia;
+	font-size:24px;
+	text-align:center;
+	padding:15.5px;
+}
+
+
+#links{
+
+	width:20%;
+	padding:20px 20px 20px 68%;
+	color:#777777;
+
+}
+
+#left{
+	float:left;
+	height:450px;
+	width:650px;
+	margin-bottom:30px;
+	background-image:url(crossword.png);
+	
+}
+
+#cwm{
+	position:relative;
+	float:left;
+	height:200px;
+	width:270px;
+	margin-left:3%;
+	text-align:center;
+	font-family:Georgia;
+	color:#4aaaa5;
+	font-size:18px;
+	font-weight:bold;
+	background-image:url(crossword.png);
+	padding-top:15px;
+	
+}
+
+
+#con {
+	font-family:Helvetica;
+	padding:10px;
+	color:#777777;
+
+}
+
+#pic {
+	float:left;
+	height:250px;
+	width:150px;
+	padding:10px;
+}
+
+
+#am{
+	font-family:Georgia;
+	color:#4aaaa5;
+	padding:10px;
+	font-size:24px;
+	font-weight:bold;
+}
+
+
+footer{
+	
+	float:left;
+	width:100%;
+	text-align:center;
+	background:#666666;
+	padding:30px;
+	color:#777777;
+}
+
+#hr1 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+    
+}
+
+#hr2{
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+
+#lii,#ghi,#soi {
+	float:left;
+	height:42px;
+	width:42px;
+	border:0;
+	padding:20px;
+	margin-left:5px;
+ }
+
+
+/*Contact Styling*/
+
+#nameInput,#emailInput,#messageInput {
+  display: block;
+  width: 95%;
+}
+
+#messageInput{
+	height:250px;
+
+}
+
+
+
+
+
