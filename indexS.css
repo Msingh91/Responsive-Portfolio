@@ -1,17 +1,32 @@
 
+@media screen and (max-width: 640px) /* Desktop */ {
+  body {
+    background: red;
+  }
+}
+
+
 #top{
-	margin-top:4%;
+	position:fixed;
+	width:100%;
+	top:0px;
+	background-image:url(crossword.png);
+	border-bottom:2px solid  #ccc;
+	
+	
 }
 
 #bot{
 	background-image:url(new_year_background.png);
 	width:94.7%;
-	height:558px;
+	height:570px;
 	padding-left:10%;
-	padding-top:4%;
+	padding-top:8%;
+	overflow:auto;
+
 }
 body{
-/*	margin-top:5%;*/
+	/*margin-top:5%;*/
 	width:100%;
 }
 #name{
@@ -23,12 +38,12 @@ body{
 	font-family:Georgia;
 	font-size:24px;
 	text-align:center;
-	padding:15.5px;
+	padding:15.8px
 }
 
 
 #links{
-
+	
 	width:20%;
 	padding:20px 20px 20px 68%;
 	color:#777777;
@@ -45,7 +60,7 @@ body{
 }
 
 #cwm{
-	position:relative;
+	
 	float:left;
 	height:200px;
 	width:270px;
